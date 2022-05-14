@@ -1,5 +1,5 @@
-print("ATENÇÃO! DEVE SE USAR O '.' NO LUGAR DA ',' PARA RELACIONAR AS MEDIDAS")
-print("RESPONDER APENAS AS UNIDADES EM NÚMEROS")
+print("----ATENÇÃO! DEVE SE USAR O '.' NO LUGAR DA ',' PARA RELACIONAR AS MEDIDAS----")
+print("----RESPONDER APENAS AS UNIDADES EM NÚMEROS-----")
 
 nome = str(input("Digite seu nome:"))
 alt = float(input("Digite sua altura em metros(ex: 1.76):"))
@@ -18,7 +18,7 @@ if ((imc >= 30.0) and (imc <= 39.9)):
 else:
     print("{}, de acordo com os cálculos seu indíce de massa corporal corresponde a {:.1f} e você se encotra {}!".format(nome,imc,"com obesidade grave"))
 
-
+#desenvolvida pro Thiago Ribeiro
 
 
     
